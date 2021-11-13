@@ -1,0 +1,5 @@
+.snakeGrid{
+    display: grid;
+    margin: auto;
+    /* bring your own prefixes */
+}

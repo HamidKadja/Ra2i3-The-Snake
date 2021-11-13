@@ -1,0 +1,94 @@
+.modal {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  right: 30%;
+  bottom: 30%;
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.75)
+}
+
+.modal_flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal_title {
+  text-align: center;
+}
+
+.modal_flex_element_text{
+  text-align: center;
+}
+
+.modal_flex_element_flex{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 12px;
+  justify-content: space-around;
+}
+
+.modal_flex_element_flex_button{
+  border-radius: 50%;
+  width: 50px;
+}
+
+.modal_go_button{
+  display: block;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal_score{
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .modalMain{
+      display: flex;
+      flex-direction: column;
+  }
+  .modal_flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .modal_go_button{
+    margin-top: 10px;
+  }
+  .modal_score{
+    margin-top: 10px;
+  }
+  .modal {
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+  }
+  
+}

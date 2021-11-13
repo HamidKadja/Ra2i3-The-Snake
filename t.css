@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template: repeat(24, 35px) / repeat(24, 35px);
+}
+* {
+    font-family: Helvetica;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+.container div {
+    background-color: #c9b6be;
+    border: solid black thin;
+}
